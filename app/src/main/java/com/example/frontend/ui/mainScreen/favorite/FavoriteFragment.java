@@ -1,4 +1,4 @@
-package com.example.frontend.ui.home;
+package com.example.frontend.ui.mainScreen.favorite;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,22 +10,21 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.frontend.databinding.FragmentHomeBinding;
+import com.example.frontend.databinding.FragmentFavoriteBinding;
 
-public class HomeFragment extends Fragment {
+public class FavoriteFragment extends Fragment {
 
-    private FragmentHomeBinding binding;
+    private FragmentFavoriteBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        HomeViewModel homeViewModel =
-                new ViewModelProvider(this).get(HomeViewModel.class);
+        FavoriteViewModel dashboardViewModel =
+                new ViewModelProvider(this).get(FavoriteViewModel.class);
 
-        binding = FragmentHomeBinding.inflate(inflater, container, false);
+        binding = FragmentFavoriteBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textHome;
-        homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+
         return root;
     }
 

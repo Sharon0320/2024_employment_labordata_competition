@@ -1,4 +1,4 @@
-package com.example.frontend.ui.search;
+package com.example.frontend.ui.mainScreen.profile;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,23 +11,21 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.example.frontend.databinding.FragmentProfileBinding;
-import com.example.frontend.databinding.FragmentSearchBinding;
-import com.example.frontend.ui.search.SearchViewModel;
 
-public class SearchFragment extends Fragment {
+public class ProfileFragment extends Fragment {
 
-    private FragmentSearchBinding binding;
+    private FragmentProfileBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        SearchViewModel searchViewModel =
-                new ViewModelProvider(this).get(SearchViewModel.class);
+        ProfileViewModel profileViewModel =
+                new ViewModelProvider(this).get(ProfileViewModel.class);
 
-        binding = FragmentSearchBinding.inflate(inflater, container, false);
+        binding = FragmentProfileBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textSearch;
-        searchViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        final TextView textView = binding.textProfile;
+        profileViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 
