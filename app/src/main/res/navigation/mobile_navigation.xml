@@ -15,7 +15,8 @@
         android:id="@+id/navigation_search"
         android:name="com.example.frontend.ui.mainScreen.search.SearchFragment"
         android:label="@string/title_search"
-        tools:layout="@layout/fragment_search" />
+        tools:layout="@layout/fragment_search">
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_favorite"
@@ -28,7 +29,5 @@
         android:name="com.example.frontend.ui.mainScreen.profile.ProfileFragment"
         android:label="@string/title_profile"
         tools:layout="@layout/fragment_profile" />
-
-
 
 </navigation>

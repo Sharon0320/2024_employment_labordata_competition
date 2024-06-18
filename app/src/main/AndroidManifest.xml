@@ -22,6 +22,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ui.mainScreen.search.ByJobSearch"
+            android:label="@string/job"/>
+        <activity android:name=".ui.mainScreen.search.ByRegionSearch"
+            android:label="@string/region"/>
+        <activity android:name=".ui.mainScreen.search.ByAgeSearch"
+            android:label="@string/age"/>
+        <activity android:name=".ui.mainScreen.search.ByGenderSearch"
+            android:label="@string/gender"/>
+        <activity android:name=".ui.mainScreen.profile.ModifyAge"
+            android:label="@string/changeage"/>
+        <activity android:name=".ui.mainScreen.profile.ModifyRegion"
+            android:label="@string/changeregion"/>
+        <activity android:name=".ui.mainScreen.profile.ModifyFavorite"
+            android:label="@string/changefavorite"/>
+
     </application>
 
 </manifest>

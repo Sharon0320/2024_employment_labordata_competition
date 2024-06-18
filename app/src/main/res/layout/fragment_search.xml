@@ -6,82 +6,54 @@
     android:layout_height="match_parent"
     tools:context=".ui.mainScreen.search.SearchFragment">
 
+
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_margin="20dp">
 
-        <EditText
-            android:id="@+id/searchWord"
-            android:layout_width="300sp"
-            android:layout_height="wrap_content"
-            android:hint="검색어를 입력하세요">
-        </EditText>
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="40sp">
-            <LinearLayout
-                android:background="#6B6B6B"
-                android:layout_width="150sp"
-                android:layout_height="225sp"
-                android:layout_marginLeft="20sp"
-                android:orientation="vertical">
-                <TextView
-                    android:padding="10sp"
-                    android:text="검색순위"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                </TextView>
-                <ListView
-                    android:id="@+id/searchRankList"
-                    android:layout_width="120sp"
-                    android:layout_height="170sp" />
-            </LinearLayout>
-            <LinearLayout
-                android:background="#6B6B6B"
-                android:layout_width="150sp"
-                android:layout_height="225sp"
-                android:layout_marginLeft="20sp"
-                android:orientation="vertical">
-                <TextView
-                    android:padding="10sp"
-                    android:text="추천 리스트"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                </TextView>
-                <ListView
-                    android:id="@+id/recommendRankList"
-                    android:layout_width="120sp"
-                    android:layout_height="170sp" />
-
-            </LinearLayout>
-
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/jobButton"
+                android:src="@drawable/job"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </ImageButton>
+            <ImageButton
+                android:id="@+id/ageButton"
+                android:src="@drawable/age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </ImageButton>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
-            <TextView
-                android:layout_marginLeft="20dp"
-                android:text="최근 검색"
-                android:textSize="30dp"
+            <ImageButton
+                android:id="@+id/genderButton"
+                android:src="@drawable/gender"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content">
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/regionButton"
+                android:src="@drawable/region"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </ImageButton>
+
 
         </LinearLayout>
 
 
-        <ListView
-            android:background="#6B6B6B"
-            android:layout_width="320sp"
-            android:layout_height="300sp"
-            android:layout_marginLeft="20sp"/>
-
-
-
-
     </LinearLayout>
+
 </LinearLayout>
