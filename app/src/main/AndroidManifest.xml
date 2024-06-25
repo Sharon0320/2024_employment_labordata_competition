@@ -21,6 +21,11 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".ui.login.RegisterRegion"/>
+        <activity android:name=".ui.login.RegisterAge"/>
+        <activity android:name=".ui.login.RegisterGender"/>
+        <activity android:name=".ui.login.RegisterFavorite"/>
+        <activity android:name=".MainActivity"/>
         <activity android:name=".ui.mainScreen.search.ByJobSearch"
             android:label="@string/job"/>
         <activity android:name=".ui.mainScreen.search.ByRegionSearch"

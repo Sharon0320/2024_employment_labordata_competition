@@ -10,26 +10,23 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.frontend.R;
 
-public class loginPage extends AppCompatActivity {
+public class RegisterRegion extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mainlogin);
+        setContentView(R.layout.registerregion);
 
         if (getSupportActionBar() != null) {
             getSupportActionBar().hide();
         }
 
-
-        ImageButton kakaologin = findViewById(R.id.kakaologinbutton);
-        kakaologin.setOnClickListener(new View.OnClickListener() {
+        ImageButton nextbutton = findViewById(R.id.nextbutton);
+        nextbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), RegisterRegion.class);
+                Intent intent = new Intent(getApplicationContext(), RegisterGender.class);
                 startActivity(intent);
             }
         });
     }
-
-
 }
