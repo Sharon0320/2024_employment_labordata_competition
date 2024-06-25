@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/company">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/jobTitle"
+                android:layout_marginTop="38dp"
+                android:layout_marginLeft="130dp"
+                android:text="경비원"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <TextView
+                android:id="@+id/ageGender"
+                android:layout_marginTop="26dp"
+                android:layout_marginLeft="90dp"
+                android:textSize="10dp"
+                android:text="50대 / 남"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+            </TextView>
+
+            <TextView
+                android:id="@+id/workLocation"
+                android:layout_marginLeft="80dp"
+                android:textSize="10dp"
+                android:text="구로구"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

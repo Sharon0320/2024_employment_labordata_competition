@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_margin="30dp"
+        android:src="@drawable/registerfavoriteinform"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:src="@drawable/registerfood"
+            android:background="@drawable/registerfood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ImageButton>
+
+        <ImageButton
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/registerwelfare"
+            android:background="@drawable/registerwelfare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ImageButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:src="@drawable/registerdelivery"
+            android:background="@drawable/registerdelivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ImageButton>
+
+        <ImageButton
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/registerservice"
+            android:background="@drawable/registerservice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ImageButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:src="@drawable/registerengineering"
+            android:background="@drawable/registerengineering"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ImageButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/backbutton"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/backbutton"
+            android:background="@drawable/backbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/nextbutton"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/nextbutton"
+            android:background="@drawable/nextbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ImageButton>
+
+
+    </LinearLayout>
+
+</LinearLayout>

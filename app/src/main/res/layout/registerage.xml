@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:padding="30dp"
+        android:src="@drawable/registerageinform"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ImageView>
+
+
+    <ImageButton
+        android:layout_gravity="center"
+        android:src="@drawable/registerage50"
+        android:background="@drawable/registerage50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ImageButton>
+
+    <ImageButton
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/registerage60"
+        android:background="@drawable/registerage60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ImageButton>
+
+    <ImageButton
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/registerage70"
+        android:background="@drawable/registerage70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ImageButton>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/backbutton"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/backbutton"
+            android:background="@drawable/backbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/nextbutton"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/nextbutton"
+            android:background="@drawable/nextbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ImageButton>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
