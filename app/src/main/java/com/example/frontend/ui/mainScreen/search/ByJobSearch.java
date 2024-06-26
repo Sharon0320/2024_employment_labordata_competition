@@ -13,15 +13,15 @@ import com.example.frontend.R;
 
 public class ByJobSearch extends AppCompatActivity {
 
-    ImageButton toHome;
+    ImageButton backbutton;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.searchjob);
 
-        toHome = findViewById(R.id.toHomeButton);
+        backbutton = findViewById(R.id.backbutton);
 
-        toHome.setOnClickListener(new View.OnClickListener() {
+        backbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), MainActivity.class); //fragment라서 activity intent와는 다른 방식

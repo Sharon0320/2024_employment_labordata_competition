@@ -13,43 +13,52 @@
         android:layout_height="wrap_content">
 
         <ImageButton
-            android:src="@drawable/fooddrink"
+            android:src="@drawable/searchfood"
+            android:background="@drawable/searchfood"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
         </ImageButton>
         <ImageButton
-            android:src="@drawable/welfare"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/searchwelfare"
+            android:background="@drawable/searchwelfare"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
         </ImageButton>
 
     </LinearLayout>
     <LinearLayout
+        android:layout_marginTop="20dp"
         android:orientation="horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
 
         <ImageButton
-            android:src="@drawable/delivery"
+            android:src="@drawable/searchdelivery"
+            android:background="@drawable/searchdelivery"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
         </ImageButton>
         <ImageButton
-            android:src="@drawable/service"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/searchservice"
+            android:background="@drawable/searchservice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
         </ImageButton>
 
     </LinearLayout>
     <LinearLayout
+        android:layout_marginTop="20dp"
         android:orientation="horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
 
         <ImageButton
-            android:src="@drawable/enginnering"
+            android:src="@drawable/searchengineering"
+            android:background="@drawable/searchengineering"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
         </ImageButton>
@@ -57,13 +66,30 @@
 
     </LinearLayout>
 
-    <ImageButton
-        android:id="@+id/toHomeButton"
-        android:background="@drawable/tohome"
+    <LinearLayout
+        android:layout_marginTop="100dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right">
-    </ImageButton>
+        android:layout_height="wrap_content">
 
+        <ImageButton
+            android:id="@+id/backbutton"
+            android:src="@drawable/backbutton"
+            android:background="@drawable/backbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right">
+        </ImageButton>
+
+        <ImageButton
+            android:layout_marginLeft="180dp"
+            android:id="@+id/complete"
+            android:src="@drawable/complete"
+            android:background="@drawable/complete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right">
+        </ImageButton>
+
+    </LinearLayout>
 
 </LinearLayout>

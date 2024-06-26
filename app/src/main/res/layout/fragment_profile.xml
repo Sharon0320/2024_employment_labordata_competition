@@ -175,19 +175,23 @@
         android:layout_height="90dp"
         android:orientation="vertical"
         android:layout_gravity="right">
+
         <ImageButton
+            android:id="@+id/logoutbutton"
             android:layout_gravity="center"
             android:src="@drawable/logout2"
             android:background="@drawable/logout2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
         </ImageButton>
+
         <View
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_weight="0.001" />
 
         <ImageButton
+            android:id="@+id/quitbutton"
             android:layout_gravity="center"
             android:src="@drawable/resign2"
             android:background="@drawable/resign2"
@@ -197,6 +201,4 @@
 
 
     </LinearLayout>
-
-
 </LinearLayout>

@@ -12,48 +12,81 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_margin="20dp">
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp">
 
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
-            <ImageButton
-                android:id="@+id/jobButton"
-                android:src="@drawable/job"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-            </ImageButton>
-            <ImageButton
-                android:id="@+id/ageButton"
-                android:src="@drawable/age"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-            </ImageButton>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
             <ImageButton
                 android:id="@+id/genderButton"
-                android:src="@drawable/gender"
+                android:src="@drawable/searchgender"
+                android:background="@drawable/searchgender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </ImageButton>
+            <ImageButton
+                android:layout_marginLeft="20dp"
+                android:id="@+id/jobButton"
+                android:src="@drawable/searchjob"
+                android:background="@drawable/searchjob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </ImageButton>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/ageButton"
+                android:src="@drawable/searchage"
+                android:background="@drawable/searchage"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
             </ImageButton>
 
             <ImageButton
+                android:layout_marginLeft="20dp"
                 android:id="@+id/regionButton"
-                android:src="@drawable/region"
+                android:src="@drawable/searchregion"
+                android:background="@drawable/searchregion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
             </ImageButton>
-
-
         </LinearLayout>
 
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:src="@drawable/searchrecommend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ImageView>
+
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:src="@drawable/recommendcompany"
+            android:background="@drawable/recommendcompany"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ImageButton>
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:src="@drawable/recommendcompany"
+            android:background="@drawable/recommendcompany"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ImageButton>
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:src="@drawable/recommendcompany"
+            android:background="@drawable/recommendcompany"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ImageButton>
 
     </LinearLayout>
-
 </LinearLayout>

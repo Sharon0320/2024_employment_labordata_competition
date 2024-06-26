@@ -18,15 +18,5 @@ public class ResultPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.searchregion);
 
-        toHome = findViewById(R.id.toHomeButton);
-
-        toHome.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), MainActivity.class); //fragment라서 activity intent와는 다른 방식
-                intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
-                startActivity(intent);
-            }
-        });
     }
 }

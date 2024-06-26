@@ -3,7 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="20dp">
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp">
 
     <ScrollView
         android:fillViewport="true"
@@ -18,120 +20,64 @@
 
 
             <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:src="@drawable/gangnam2"
+                    android:background="@drawable/gangnam2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </ImageButton>
+                <ImageButton
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/gangbuk2"
+                    android:background="@drawable/gangbuk2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </ImageButton>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
                 android:orientation="horizontal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
                 <ImageButton
-                    android:src="@drawable/gangnam"
+                    android:src="@drawable/gangdong2"
+                    android:background="@drawable/gangdong2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
                 </ImageButton>
                 <ImageButton
-                    android:src="@drawable/gangbuk"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/guro2"
+                    android:background="@drawable/guro2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
                 </ImageButton>
 
             </LinearLayout>
             <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-
-                <ImageButton
-                    android:src="@drawable/gangdong"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                </ImageButton>
-                <ImageButton
-                    android:src="@drawable/guro"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                </ImageButton>
-
-            </LinearLayout>
-            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
                 android:orientation="horizontal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
                 <ImageButton
-                    android:src="@drawable/gangseo"
+                    android:src="@drawable/gangseo2"
+                    android:background="@drawable/gangseo2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
                 </ImageButton>
                 <ImageButton
-                    android:src="@drawable/geumcheon"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                </ImageButton>
-
-            </LinearLayout>
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <ImageButton
-                    android:src="@drawable/gwanak"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                </ImageButton>
-                <ImageButton
-                    android:src="@drawable/gwangjin"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                </ImageButton>
-
-            </LinearLayout>
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <ImageButton
-                    android:src="@drawable/nowon"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                </ImageButton>
-                <ImageButton
-                    android:src="@drawable/dobong"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                </ImageButton>
-
-            </LinearLayout>
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <ImageButton
-                    android:src="@drawable/dongdaemun"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                </ImageButton>
-                <ImageButton
-                    android:src="@drawable/dongjak"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                </ImageButton>
-
-            </LinearLayout>
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <ImageButton
-                    android:src="@drawable/mapo"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                </ImageButton>
-                <ImageButton
-                    android:src="@drawable/seongbuk"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/geumcheon2"
+                    android:background="@drawable/geumcheon2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
                 </ImageButton>
@@ -139,115 +85,253 @@
             </LinearLayout>
 
             <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <ImageButton
-                    android:src="@drawable/seongdong"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                </ImageButton>
-                <ImageButton
-                    android:src="@drawable/seocho"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                </ImageButton>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <ImageButton
-                    android:src="@drawable/songpa"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                </ImageButton>
-                <ImageButton
-                    android:src="@drawable/seodaemun"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                </ImageButton>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <ImageButton
-                    android:src="@drawable/yangcheon"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                </ImageButton>
-                <ImageButton
-                    android:src="@drawable/eunpyeong"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                </ImageButton>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <ImageButton
-                    android:src="@drawable/yongsan"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                </ImageButton>
-                <ImageButton
-                    android:src="@drawable/yeongdeungpo"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                </ImageButton>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <ImageButton
-                    android:src="@drawable/jungnang"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                </ImageButton>
-                <ImageButton
-                    android:src="@drawable/jongno"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                </ImageButton>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <ImageButton
-                    android:src="@drawable/jung"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                </ImageButton>
-
-            </LinearLayout>
-
-            <ImageButton
-                android:id="@+id/toHomeButton"
-                android:background="@drawable/tohome"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="right">
-            </ImageButton>
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:src="@drawable/gwanak2"
+                    android:background="@drawable/gwanak2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </ImageButton>
+
+                <ImageButton
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/gwangjin2"
+                    android:background="@drawable/gwangjin2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </ImageButton>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:src="@drawable/nowon2"
+                    android:background="@drawable/nowon2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </ImageButton>
+
+                <ImageButton
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/dobong2"
+                    android:background="@drawable/dobong2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </ImageButton>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:src="@drawable/dongdaemun2"
+                    android:background="@drawable/dongdaemun2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </ImageButton>
+
+                <ImageButton
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/dongjak2"
+                    android:background="@drawable/dongjak2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </ImageButton>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:src="@drawable/mapo2"
+                    android:background="@drawable/mapo2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </ImageButton>
+
+                <ImageButton
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/seongbuk2"
+                    android:background="@drawable/seongbuk2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </ImageButton>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:src="@drawable/seongdong2"
+                    android:background="@drawable/seongdong2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </ImageButton>
+
+                <ImageButton
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/seocho2"
+                    android:background="@drawable/seocho2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </ImageButton>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:src="@drawable/songpa2"
+                    android:background="@drawable/songpa2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </ImageButton>
+
+                <ImageButton
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/seodaemun2"
+                    android:background="@drawable/seodaemun2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </ImageButton>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:src="@drawable/yangcheon2"
+                    android:background="@drawable/yangcheon2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </ImageButton>
+
+                <ImageButton
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/eunpyeong2"
+                    android:background="@drawable/eunpyeong2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </ImageButton>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:src="@drawable/yongsan2"
+                    android:background="@drawable/yongsan2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </ImageButton>
+
+                <ImageButton
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/yeongdeungpo2"
+                    android:background="@drawable/yeongdeungpo2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </ImageButton>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:src="@drawable/jungnang2"
+                    android:background="@drawable/jungnang2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </ImageButton>
+
+                <ImageButton
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/jongno2"
+                    android:background="@drawable/jongno2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </ImageButton>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:src="@drawable/jung2"
+                    android:background="@drawable/jung2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </ImageButton>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/backbutton"
+                    android:src="@drawable/backbutton"
+                    android:background="@drawable/backbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageButton
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="140dp"
+                    android:id="@+id/complete"
+                    android:layout_marginBottom="40dp"
+                    android:src="@drawable/complete"
+                    android:background="@drawable/complete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </ImageButton>
+
+
+            </LinearLayout>
 
         </LinearLayout>
 

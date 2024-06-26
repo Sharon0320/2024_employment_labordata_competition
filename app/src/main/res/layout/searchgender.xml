@@ -13,18 +13,22 @@
         android:layout_height="wrap_content">
 
         <ImageButton
-            android:src="@drawable/female"
+            android:src="@drawable/searchfemale"
+            android:background="@drawable/searchfemale"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
         </ImageButton>
         <ImageButton
-            android:src="@drawable/male"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/searchmale"
+            android:background="@drawable/searchmale"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
         </ImageButton>
 
     </LinearLayout>
     <LinearLayout
+        android:layout_marginTop="20dp"
         android:orientation="horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -32,19 +36,37 @@
 
         <ImageButton
             android:src="@drawable/both"
+            android:background="@drawable/both"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
         </ImageButton>
 
     </LinearLayout>
 
-    <ImageButton
-        android:id="@+id/toHomeButton"
-        android:background="@drawable/tohome"
+    <LinearLayout
+        android:layout_marginTop="100dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right">
-    </ImageButton>
+        android:layout_height="wrap_content">
 
+        <ImageButton
+            android:id="@+id/backbutton"
+            android:src="@drawable/backbutton"
+            android:background="@drawable/backbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right">
+        </ImageButton>
+
+        <ImageButton
+            android:layout_marginLeft="180dp"
+            android:id="@+id/complete"
+            android:src="@drawable/complete"
+            android:background="@drawable/complete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right">
+        </ImageButton>
+
+    </LinearLayout>
 
 </LinearLayout>

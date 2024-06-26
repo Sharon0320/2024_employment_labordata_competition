@@ -4,13 +4,58 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.mainScreen.favorite.FavoriteFragment">
+    tools:context=".ui.mainScreen.favorite.FavoriteFragment"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
 
 
-    <ListView
-        android:padding="10dp"
+    <ImageButton
+        android:src="@drawable/favoriteitem"
+        android:background="@drawable/favoriteitem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-    </ListView>
+    </ImageButton>
+
+    <ImageButton
+        android:src="@drawable/favoriteitem"
+        android:background="@drawable/favoriteitem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ImageButton>
+
+    <ImageButton
+        android:src="@drawable/favoriteitem"
+        android:background="@drawable/favoriteitem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ImageButton>
+
+    <ImageButton
+        android:src="@drawable/favoriteitem"
+        android:background="@drawable/favoriteitem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ImageButton>
+
+    <ImageButton
+        android:src="@drawable/favoriteitem"
+        android:background="@drawable/favoriteitem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ImageButton>
+
+    <ImageButton
+        android:src="@drawable/favoriteitem"
+        android:background="@drawable/favoriteitem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ImageButton>
+
+    <ImageButton
+        android:src="@drawable/favoriteitem"
+        android:background="@drawable/favoriteitem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ImageButton>
 
 </LinearLayout>

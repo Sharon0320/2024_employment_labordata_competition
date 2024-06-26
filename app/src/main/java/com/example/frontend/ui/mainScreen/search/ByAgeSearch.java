@@ -12,15 +12,26 @@ import com.example.frontend.MainActivity;
 import com.example.frontend.R;
 
 public class ByAgeSearch extends AppCompatActivity {
-    ImageButton toHome;
+    ImageButton backbutton;
+    ImageButton complete;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.searchage);
 
-        toHome = findViewById(R.id.toHomeButton);
+        backbutton = findViewById(R.id.backbutton);
+        complete = findViewById(R.id.complete);
 
-        toHome.setOnClickListener(new View.OnClickListener() {
+        backbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class); //fragment라서 activity intent와는 다른 방식
+                intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                startActivity(intent);
+            }
+        });
+
+        complete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), MainActivity.class); //fragment라서 activity intent와는 다른 방식
