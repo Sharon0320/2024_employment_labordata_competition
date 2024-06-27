@@ -10,6 +10,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.frontend.R;
 
+import retrofit2.http.POST;
+
 public class RegisterRegion extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -28,5 +30,7 @@ public class RegisterRegion extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
     }
 }
