@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.frontend"
-        minSdk = 16
+        minSdk =24
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -36,6 +36,7 @@ android {
 
 dependencies {
     val navVersion = "2.5.3" // Use the latest version available
+    implementation ("com.kakao.sdk:v2-all:2.20.1") // 전체 모듈 설치, 2.11.0 버전부터 지원
     implementation("androidx.navigation:navigation-fragment-ktx:$navVersion")
     implementation("androidx.navigation:navigation-ui-ktx:$navVersion")
     implementation("androidx.recyclerview:recyclerview:1.3.2")
